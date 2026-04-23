@@ -15,3 +15,15 @@ Features:
 """
 
 import random
+
+# Constants
+EASY_RANGE = 10
+MEDIUM_RANGE = 50
+HARD_RANGE = 100
+
+
+def display_welcome():
+    """Displays the welcome message."""
+    print("Welcome to the Number Guessing Game!")
+    print("I will generate a random number, and you will try to guess it.")
+    print()
